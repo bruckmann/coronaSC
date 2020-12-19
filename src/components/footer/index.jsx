@@ -1,10 +1,19 @@
 import React from 'react';
+import { FcLike } from 'react-icons/fc';
 import { Container } from './styles';
 
-const footer = () => {
+const Footer = () => (
   <Container>
-    <p>Made with :heart: by Felipe Brückmann</p>
-  </Container>;
-};
+    <p>
+      Feito com
+      {' '}
+      <FcLike />
+      {' '}
+      por
+      {' '}
+      <strong>Felipe Brückmann</strong>
+    </p>
+  </Container>
+);
 
-export default footer;
+export default Footer;
