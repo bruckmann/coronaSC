@@ -32,5 +32,7 @@ module.exports = {
     'jsx-a11y/control-has-associated-label': 0,
     'array-callback-return': 0,
     'max-len': 0,
+    'import/extebsions': 0,
+    'import/no-unresolved': 0,
   },
 };
