@@ -17,6 +17,7 @@ export const Container = styled.div`
     color: #edfff5;
   }
   .imgDiv {
-    background: url('https://source.unsplash.com/collection/9683639/500x500') no-repeat center center;
+    background: url('https://source.unsplash.com/collection/9683639/400x500') no-repeat center center;
+    border-radius: 8px;
   }
 `;
