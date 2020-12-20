@@ -12,12 +12,26 @@ export const Container = styled.div`
   .textDiv {
     display: flex;
     padding: 10px;
-    text-align:center;
     align-items: center;
+    text-align: center;
     color: #edfff5;
   }
   .imgDiv {
-    background: url('https://source.unsplash.com/collection/9683639/400x500') no-repeat center center;
+    background: url('https://source.unsplash.com/collection/10476432/400x500') no-repeat center center;
     border-radius: 8px;
+    animation-name: opacity ;
+    animation-duration: 1500ms;
+    animation-timing-function: ease-in;
   }
+
+  @keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 `;

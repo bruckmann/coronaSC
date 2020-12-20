@@ -16,7 +16,7 @@ const Footer = () => (
       ,
       {' '}
       <a target="__blank" href="https://github.com/bruckmann/coronaSC">
-        Contribua com este projeto
+        contribua com este projeto
         {' '}
         <GoMarkGithub />
 
