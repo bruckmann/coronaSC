@@ -12,6 +12,7 @@ export default class Home extends Component {
     confirmedCases: '',
     deathNumber: '',
     suspectCases: '',
+    error: '',
   }
 
   componentDidMount() {
@@ -27,7 +28,9 @@ export default class Home extends Component {
         suspectCases: request.data.suspects,
       });
     } catch (error) {
-      console.log(error);
+      this.setState({
+        error,
+      });
     }
   }
 

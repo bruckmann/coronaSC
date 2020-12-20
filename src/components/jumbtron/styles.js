@@ -32,6 +32,6 @@ export const Container = styled.div`
     to {
         opacity: 1;
     }
-}
+  }
 
 `;
