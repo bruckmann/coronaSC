@@ -7,7 +7,7 @@ export const CardDiv = styled.div`
   grid-template-rows: 60% 40%;
   background-color: #d93455;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 45px;
   color:  #edfff5;
   border-radius: 8px;
   .values {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FcLike } from 'react-icons/fc';
+import { GoMarkGithub } from 'react-icons/go';
 import { Container } from './styles';
 
 const Footer = () => (
@@ -12,6 +13,14 @@ const Footer = () => (
       por
       {' '}
       <strong>Felipe Brückmann</strong>
+      ,
+      {' '}
+      <a target="__blank" href="https://github.com/bruckmann/coronaSC">
+        Contribua com este projeto
+        {' '}
+        <GoMarkGithub />
+
+      </a>
     </p>
   </Container>
 );
