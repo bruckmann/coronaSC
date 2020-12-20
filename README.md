@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A simple web page to see the situation of the corona virus in Santa Catarina, Brazil.
+
+
 All data used on this page was taken using the [covid19 brazil API](https://github.com/devarthurribeiro/covid19-brazil-api) 
 
 ## Made with:
