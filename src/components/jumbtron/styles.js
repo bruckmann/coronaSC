@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 1000px;
-  height: 50vh;
+  min-height: 40vh;
+  max-height: 45vh;
   display: grid;
   grid-template-columns: 60% 40%;
   background-color: #d93455;
